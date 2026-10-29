@@ -1,0 +1,50 @@
+// English UI strings. To add a language, copy this file (e.g. uk.js),
+// translate the values, and register it in i18n/index.js.
+const en = {
+  app: { name: 'Ledger', tagline: 'Preply & personal finance' },
+  nav: {
+    dashboard: 'Dashboard', students: 'Preply Students', income: 'Other Income',
+    expenses: 'Expenses', reports: 'Reports', settings: 'Settings',
+    studentsShort: 'Students', incomeShort: 'Income',
+  },
+  actions: {
+    add: 'Add', save: 'Save', saving: 'Saving…', cancel: 'Cancel', delete: 'Delete', edit: 'Edit',
+    duplicate: 'Duplicate', archive: 'Archive', unarchive: 'Restore', close: 'Close', confirm: 'Confirm',
+    addExpense: 'Add expense', addIncome: 'Add income', addStudent: 'Add student',
+    recordLessons: 'Record lessons', recordPayout: 'Record payout', refresh: 'Refresh',
+    exportCsv: 'Export CSV', exportJson: 'Backup (JSON)', importJson: 'Restore from JSON',
+    clearFilters: 'Clear filters', quickAdd: 'Quick add', stop: 'Stop future', markReceived: 'Mark received',
+  },
+  common: {
+    search: 'Search', all: 'All', none: 'None', notes: 'Notes', date: 'Date', amount: 'Amount',
+    currency: 'Currency', category: 'Category', status: 'Status', description: 'Description',
+    optional: 'optional', total: 'Total', month: 'Month', year: 'Year', thisMonth: 'This month',
+    prevMonth: 'Previous month', nextMonth: 'Next month', today: 'Today', thisWeek: 'This week',
+    vsPrev: 'vs previous month', noData: 'No data yet', perMonth: '/ month', lessons: 'lessons',
+    recurring: 'Recurring', monthly: 'Monthly', yearly: 'Yearly', rate: 'Rate',
+  },
+  status: {
+    expected: 'Expected', received: 'Received', paid_out: 'Paid out',
+    active: 'Active', paused: 'Paused', archived: 'Archived', paid: 'Paid',
+  },
+  model: { per_lesson: 'Per lesson', subscription: 'Subscription' },
+  pay: { card: 'Card', cash: 'Cash', bank: 'Bank transfer', other: 'Other' },
+  dash: {
+    title: 'Dashboard',
+    totalGross: 'Total gross income', preplyCommission: 'Preply commission', preplyNet: 'Net Preply income',
+    otherIncome: 'Other income', totalNet: 'Total net income', expenses: 'Total expenses',
+    left: 'Money left', savings: 'Savings rate', cumulative: 'Saved to date',
+    incomeVsExpenses: 'Income vs expenses', netBySource: 'Net income by source',
+    expensesByCategory: 'Expenses by category', netTrend: 'Net income trend', recent: 'Recent transactions',
+    upcoming: 'Upcoming expected income', topCategories: 'Top spending categories', budget: 'Monthly budget',
+    preplyOutlook: 'Preply outlook', expectedThisMonth: 'Expected this month', earnedSoFar: 'Earned so far',
+    expectedNextMonth: 'Expected next month', balance: 'In Preply balance',
+    emptyTitle: 'Your ledger is empty', emptyBody: 'Add a Preply student, record some income or log an expense — the dashboard fills in automatically.',
+  },
+  students: { title: 'Preply Students', records: 'Records', payouts: 'Payouts', list: 'Students' },
+  income: { title: 'Other Income' },
+  expenses: { title: 'Expenses' },
+  reports: { title: 'Reports', monthly: 'Monthly', annual: 'Annual' },
+  settings: { title: 'Settings' },
+};
+export default en;
